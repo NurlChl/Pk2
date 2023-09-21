@@ -13,10 +13,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 3.5rem;
-    box-shadow: 3px 3px 10px 4px rgba(0,0,0,0.10);
-    -webkit-box-shadow: 3px 3px 10px 4px rgba(0,0,0,0.10);
-    -moz-box-shadow: 3px 3px 10px 4px rgba(0,0,0,0.10);
+    box-shadow: 3px 3px 10px 4px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 3px 3px 10px 4px rgba(0,0,0,0.05);
+    -moz-box-shadow: 3px 3px 10px 4px rgba(0,0,0,0.05);
     overflow: hidden;
+    background-color: rgb(177, 249, 225);
 }
 
 nav img {
@@ -66,7 +67,6 @@ nav ul li:hover {
 .kotakProduk .produk {
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
     overflow: hidden;
     width: 10rem;
     border-radius: 3px;
